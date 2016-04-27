@@ -1,0 +1,7 @@
+import poc02.Cliente
+
+model {
+	Cliente cliente
+}
+
+json g.render(cliente)

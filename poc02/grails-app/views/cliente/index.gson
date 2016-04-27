@@ -1,0 +1,8 @@
+import poc02.Cliente
+
+model {
+	Iterable<Cliente> clienteList
+}
+
+json tmpl.cliente(clienteList ?: [])
+

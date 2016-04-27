@@ -1,0 +1,8 @@
+import poc02.Endereco
+
+model {
+	Iterable<Endereco> enderecoList
+}
+
+json tmpl.endereco(enderecoList ?: [])
+

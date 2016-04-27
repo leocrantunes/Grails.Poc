@@ -1,0 +1,7 @@
+import poc02.Endereco
+
+model {
+	Endereco endereco
+}
+
+json g.render(endereco)
